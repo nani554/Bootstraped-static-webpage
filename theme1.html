@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>theme1 </title>
+	<meta name="viewpoint" content="width=device-width,initial-scale=1">
+	<link rel="icon" href="./pics/bootstrap.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+		*,body{
+			padding:0;
+			margin:0;
+		}
+		.row{
+			border:1px solid black;
+		}
+		.recent{
+			margin-top:20px;
+			font-size: 20px;
+			opacity:0.6;
+		}
+		.oincity{
+			opacity:0.6;
+		}
+		.pad{
+			margin-top: 2.5em;
+			margin-bottom: 4.5em;
+
+		}
+		.padb{
+			margin-bottom:1.2em;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<h2>Manoj kiran's Blog</h2>
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a href="javascript:console.log('playing with new weapon called javascript inside href')">Home</a></li>
+					<li><a href="./modal.html" onclick="alert('stay here buddy u cant go anywhere!');return false">Friends</a></li>
+					<li><a href="./modal.html" onclick="return false">Family</a></li>
+					<li><a href="javascript:void(0)">Dance Bar</a></li>
+					<li>
+						<form>
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder=" Search Blog .. ">
+								<div class="input-group-btn">
+									<button class="btn btn-default"><i class="glyphicon glyphicon-search"></i>
+									</button>
+								</div>
+							</div>
+						</form>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-md-9">
+				<p class="recent">Recent Posts</p>
+				<hr>
+				<h1>I Love Food</h1>
+				<p class="oincity"><span class="glyphicon glyphicon-time"></span> Post by Manoj, Sep 21 ,2017</p>
+				<a href="javascript:void(0)" class="btn btn-danger btn-xs">Food</a>
+				<a href="javascript:void(0)" class="btn btn-primary btn-xs">Biryani</a>
+				<p class="oincity pad">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor.</p>
+				<p class="recent">Recent Posts</p>
+				<hr>
+				<h1>One more blog</h1>
+				<p class="oincity"><span class="glyphicon glyphicon-time"></span> Post by Kiran, apr 1 ,2017</p>
+				<a href="javascript:void(0)" class="btn btn-success btn-xs">soup</a>
+				<p class="oincity pad padb">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor.</p>
+				<hr>
+				<form>
+					<div class="form-group">
+						<label class="label-control" for="textb">Leave a Comment:</label>
+						<textarea class="form-control" row="10" cols="120">
+
+						</textarea><br>
+					</div>
+					<a href="javascript:void(0)" class="btn btn-success">Submit</a><br><br>
+				</form>
+					<p><span class="badge">2</span> Comments:</p>
+					<div class="media">
+						<div class="media-left">
+							<img src="./pics/andrew3.gif" class="media-object" style="width:70px;height:70px;border-radius:50%">
+						</div>
+						<div class="media-body">
+							<h3 class="media-heading">Jalal<small><i> Sep,21,2017, 8:17 PM</i></small></h3>
+							<p>convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.sapien massa,convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.sapien massa.</p>
+						</div>
+					</div>
+					<div class="media">
+						<div class="media-left">
+							<img src="./pics/stanley2.jpg" class="media-object" style="width:70px;height:70px;border-radius: 50%">
+						</div>
+						<div class="media-body">
+							<h3 class="media-heading">Naresh <small><i>apr 1 ,2017, 8:30 PM</i></small></h3>
+							<p>convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.sapien massa,convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.sapien massa.</p>
+							<p><span class="badge">1</span> Comment:</p>
+							<div class="media">
+								<div class="media-left">
+									<img src="./pics/jason.jpg" class="media-object" style="width:70px;height:70px;border-radius:50%">
+								</div>
+								<div class="media-body">
+									<h3 class="media-heading"><small><i>Shareef jun 5,2015, 8:26 PM</i></small></h3>
+									<p>Vivamus suscipit tortor eget felis porttitor volutpat.sapien massa,convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.sapien massa.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<footer class="container-fluid" style="background:grey;color:white;padding:10px">
+				Footer text goes here broh
+		</footer>
+		
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
